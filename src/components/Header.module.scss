@@ -1,0 +1,22 @@
+.header {
+  padding: 1.25rem 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  background: #fff;
+  h1 {
+    font-size: 1.75rem;
+    margin: 0;
+  }
+  h3 {
+    margin: 0;
+  }
+  .contactLink {
+    text-decoration: underline;
+    cursor: pointer;
+    img {
+      vertical-align: middle;
+    }
+  }
+}

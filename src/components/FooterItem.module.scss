@@ -1,0 +1,43 @@
+.footerItem  {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  margin: 0 1.5rem;
+  .linkDetails {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: .5rem;
+    background: #fff;
+    border: 1px solid grey;
+    border-radius: 4px;
+    transform: translate(-38%, -108%);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    span {
+      display: block;
+    }
+    img {
+      height: .9rem;
+      margin-left: .5rem;
+      display: block;
+    }
+  }
+  a {
+    width: 100%;
+    height: 100%;
+    margin: 0 1.5rem;
+    display: block;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      transition: .2s;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
