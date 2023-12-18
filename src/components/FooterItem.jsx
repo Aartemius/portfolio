@@ -9,7 +9,6 @@ const FooterItem = ({
   altText
 }) => {
   const [isDescriptionShown, setIsDescriptionShown] = useState(false);
-  // const [description, setDescription] = useState(descriptionText);
   const [description, setDescription] = useState({
     text: descriptionText,
     isCopyIconShown: true
@@ -26,7 +25,6 @@ const FooterItem = ({
   const handleDescriptionClick = () => {
     navigator.clipboard.writeText(descriptionText)
     .then(() => {
-      // setDescription('Copied to clipboard');
       setDescription({
         text: 'Copied to clipboard',
         isCopyIconShown: false
@@ -34,7 +32,6 @@ const FooterItem = ({
       setTimeout(() => setIsDescriptionShown(false), 1000);
     })
     .catch((err) => {
-      // setDescription('Unable to copy text to clipboard');
       setDescription({
         text: 'Unable to copy text to clipboard',
         isCopyIconShown: false
@@ -62,11 +59,14 @@ const FooterItem = ({
           }
         </div>
       }
-      <a href={ link }>
+      <a 
+        href={ link }
+        target={ isTargetBlank ? '_blank' : undefined }
+        rel={ isTargetBlank ? 'noreferrer' : undefined }
+      >
         <img 
           src={ iconUrl } 
           alt={ altText } 
-          target={ isTargetBlank ? '_blank' : undefined } 
         />
       </a>
     </div>

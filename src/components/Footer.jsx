@@ -22,14 +22,14 @@ const Footer = () => {
         <FooterItem 
           descriptionText="https://t.me/Artem_Sweet_N_Sour"
           link="https://t.me/Artem_Sweet_N_Sour"
-          isTargetBlank
+          isTargetBlank={ true }
           iconUrl="images/telegram.png"
           altText="telegram"
         />
         <FooterItem 
           descriptionText="https://www.linkedin.com/in/artem-antonov-3741b7249/"
           link="https://www.linkedin.com/in/artem-antonov-3741b7249/"
-          isTargetBlank
+          isTargetBlank={ true }
           iconUrl="images/linkedin.png"
           altText="linkedin"
         />

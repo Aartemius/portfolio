@@ -10,7 +10,7 @@ function App() {
     <>
     <Header />
       <div className={styles.app}>
-        <h3>Some of my pet-projects</h3>
+        {/* <h3>Some of my pet-projects</h3> */}
         <ul>
           {projects.map((project, index) => (
             <ProjectItem

@@ -5,12 +5,27 @@
   align-items: center;
   border-bottom: 1px solid #000;
   background: #fff;
+  @media (max-width: 500px) {
+    padding: 1rem 5%;
+  }
   h1 {
     font-size: 1.75rem;
     margin: 0;
+    white-space: nowrap;
+    @media (max-width: 500px) {
+      font-size: 1.35rem;
+      margin-right: 1rem;
+    }
   }
   h3 {
     margin: 0;
+    text-align: right;
+    span {
+      white-space: nowrap;
+    }
+    @media (max-width: 500px) {
+      font-size: 1rem;
+    }
   }
   .contactLink {
     text-decoration: underline;
