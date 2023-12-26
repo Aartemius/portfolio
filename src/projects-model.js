@@ -54,7 +54,7 @@ export const projects = [
     description: "Contact us page with responsive layout and a form. react-hook-forms is used for form validation",
     used_technologies: "React.js, TypeScript, react-hook-forms, Tailwind CSS",
     repo_link: "https://github.com/Aartemius/contact-form-react",
-    url: "https://contact-form-react-r3fa.vercel.app/",
+    url: "https://contact-form-react-pi.vercel.app/",
     img: {
       title: "Contact page",
       url: "images/contact-page.jpg"
