@@ -43,7 +43,7 @@ export const projects = [
     title: "Tabs with lazy loading components",
     description: "Container with multiple tabs. Switch components which are lazy loaded using Suspense. Loads only current component on first load using router.",
     used_technologies: "React.js, TypeScript",
-    repo_link: "https://fake-cms-tabs.vercel.app/dummyTable",
+    repo_link: "https://github.com/Aartemius/fake-cms-tabs",
     url: "https://fake-cms-tabs.vercel.app/dummyTable",
     img: {
       title: "Tabs with lazy loading components",
