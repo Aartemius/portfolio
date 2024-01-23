@@ -69,5 +69,25 @@ export const projects = [
       title: "Users list with lazy load",
       url: "images/users-table.jpg"
     }
+  }, {
+    title: "Books library",
+    description: "Page with books listing with list sorting options and lazy loading, page for book details. Books list is a hardcoded locally mockup. State of visited pages is saved in session storage.",
+    used_technologies: "React.js, TypeScript, SCSS modules, Redux/toolkit/thunk",
+    repo_link: "https://github.com/Aartemius/books-list",
+    url: "https://books-list-sooty.vercel.app/",
+    img: {
+      title: "Books list",
+      url: "images/books-list.jpg"
+    }
+  }, {
+    title: "Few steps application form",
+    description: "Form with 4 steps. Form state is saved in a session storage",
+    used_technologies: "React.js, TypeScript, SCSS modules, Redux/toolkit",
+    repo_link: "https://github.com/Aartemius/diet-mentor",
+    url: "https://aartemius.github.io/diet-mentor/",
+    img: {
+      title: "application form",
+      url: "images/diet-mentor.jpg"
+    }
   }
 ]
